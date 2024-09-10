@@ -21,6 +21,9 @@ Manage JavaScript functionality in the ./assets/vendor folder.
 
 # Acknowledgements
 Bootstrap: For the responsive design framework.
+
 FontAwesome: For the icon library.
+
 Swiper: For the slider component.
+
 AOS: For the scroll animations.
