@@ -1,0 +1,98 @@
+header .navbar .navbar-nav .active {
+    color: #EE8E3D;
+
+}
+
+header .navbar .navbar-nav a.active {
+    border-bottom: 1px solid #EE8E3D;
+}
+
+header .navbar .navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+header #login {
+    background-color: #f4a825 !important;
+    border: 0 !important;
+    transition: all 1.5s ease-in;
+}
+header #login:hover
+{
+    color:#987129;
+}
+header #newMember {
+    margin-left: 15vh;
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* default iPad screens */
+    header .navbar .navbar-nav a {
+        text-align: center;
+    }
+
+    header .left-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header #login {
+        display: block;
+        padding-right: 20vh;
+        padding-left: 20vh;
+    }
+
+    header #newMember {
+        margin: 15px auto;
+
+        padding-right: 20vh;
+        padding-left: 20vh;
+    }
+}
+/*Start newsSection */
+/* .newsSection img{
+ /*    width: 1120px;
+    height: 434px; 
+} 
+/*End newsSection */
+
+
+/* start footer */
+.footer{
+    background-color: #3485B9;
+    padding: 10px;
+}
+.footer img{
+   padding: 5px;
+   margin: 15px auto;
+}
+.footer button{
+    background-color: #F4A825 !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-bottom-left-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+    padding: 10px !important;
+    color: #333 !important;
+}
+.footer input[type="text"]{
+    border-radius: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-bottom-right-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+.footer p svg{
+    padding: 5px;
+    margin: 0 5px;
+  /*   margin: 5px; */
+}
+.footer p{
+    margin: 0 5px;
+    padding: 5px;
+}
+/* end footer */

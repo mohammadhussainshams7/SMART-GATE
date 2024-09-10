@@ -1,0 +1,338 @@
+.row{
+    overflow-x: hidden;
+}
+header .navbar .navbar-nav .active {
+    color: #EE8E3D;
+
+}
+
+header .navbar .navbar-nav a.active {
+    border-bottom: 1px solid #EE8E3D;
+}
+
+header .navbar .navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+header #login {
+    background-color: #f4a825 !important;
+    border: 0 !important;
+    transition: all 1.5s ease-in;
+}
+header #login:hover
+{
+    color:#987129;
+}
+header #newMember {
+    margin-left: 15vh;
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* default iPad screens */
+    header .navbar .navbar-nav a {
+        text-align: center;
+    }
+
+    header .left-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header #login {
+        display: block;
+        padding-right: 20vh;
+        padding-left: 20vh;
+    }
+
+    header #newMember {
+        margin: 15px auto;
+
+        padding-right: 20vh;
+        padding-left: 20vh;
+    }
+}
+
+main {
+    overflow-x: hidden;
+    margin-top: 10px;
+}
+
+main .border-right {
+    width: 400px;
+    height: 400px;
+    transform: translateX(65%);
+    border: 30px solid #F4A825;
+    border-radius: 298px;
+    
+}
+main  .btn-primary {
+    background-color: #f4a825 !important;
+    border: 0;
+    margin: 5px 5px;
+}
+main  .btn-primary:hover{
+    color: #f4a825 !important;
+    background-color: #333 !important;
+}
+main .textsmart .titile{
+    color: #F4A825;
+    margin-bottom: 1vw;
+}
+main .textsmart .titile span{
+    color: #3485B9;
+}
+main .img-left img{
+    width: 100%;
+}
+main .leftborder{
+    width: 215px;
+height: 215px;
+border: 40px solid #3485B9;
+border-radius: 298px;
+}
+@media only screen and (max-width:779px) {
+    main .border-right{
+        display: none;
+    }
+    main .leftborder{
+        display: none;
+    }
+    main .textsmart .titile{
+        text-align: center;
+    }
+    main .textsmart{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* start section latest news */
+.latest-news .swiper {
+    width: 100%;
+/*     height: 300px; */
+}
+.latest-news    .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+
+  .latest-news .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } 
+
+.latest-news , .estimates ,.seminars , .Connect-us{
+    background-image: linear-gradient(180deg,#F8F8F8,#FFFFFF);
+}
+.latest-news , .our-service{
+    margin-top: 3vw;
+}
+.title{
+    border-right: 5px solid #3485B9;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* end section latest news */
+
+
+/* start section Our services */
+.our-service , .Our-sector , .Our-distinguished-customers{
+    background-image: linear-gradient(0,#F8F8F8,#FFFFFF);
+}
+.our-service .card{
+    border-radius: 30px;
+    box-shadow: 0 60px 99px #00000014;
+    border: 0;
+    position: relative;
+    margin: 10px;
+}
+
+.our-service .card .background-img{
+    width: 158px;
+    height: 158px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.our-service .card .background-img {
+    box-shadow: inset 0 0 0 1000px #e5b90b45;
+}
+x
+.our-service  .card-img , .our-service .card-img,.our-service .card-img-bottom,.our-service .card-img-top{
+    width: 70% !important;
+}
+@media only screen and (max-width : 792px) {
+    .our-service  .card{
+       text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .our-service .card .background-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-service .card .container{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column;
+    }
+}
+/* end section Our services */
+/* start section Our estimates */
+.estimates .banner{
+    background-image: linear-gradient(0, #fdc313 , #f49340);
+    margin-top: 2vw;
+    border-radius: 25px;
+
+}
+.estimates .banner .right{    
+  margin: 20px auto;
+  padding: 5px;
+
+}
+.estimates .banner .right h2{
+    margin-top: 8vw;
+}
+.estimates .banner .right button{
+    background-color: hsl(228deg 84.27% 17.45%);
+    border: 0;
+    padding: 10px 40px;
+}
+
+.estimates .banner .left img{    
+    border-radius: 30px;
+  }
+/* end section Our estimates */
+/* start section Our Our-sector */
+.Our-sector .card{
+    border: 0;
+}
+.Our-sector .card .card-title{
+    margin: 0;
+    padding: 0;
+    background-color: #07BEF8;
+    color: #FFFFFF;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.Our-sector .pic-agriculture .card-title{
+    background-color: #33dd9e;
+}
+.Our-sector .pic-car .card-title{
+    background-color: #f8690a;
+} 
+.Our-sector .card .card-body{
+    padding: 0;
+}
+.Our-sector .card .background-img img,
+.seminars .card  img
+
+
+{
+/*     width: 100%;
+    height: 400px; */
+    height: 300px;
+    transition: all 1s;
+}
+
+/* end section Our Our-sector */
+/* start section Seminars */
+.seminars .btn{
+    background-color: #F4A825;
+    border: 0;
+}
+.seminars .card  img:hover{
+    opacity: .5;
+} 
+/* end section Seminars */
+/* start section Our-distinguished-customers */
+.Our-distinguished-customers .row{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.Our-distinguished-customers .card img{
+    padding: 10px 1px;
+}
+@media screen and (max-width:792px) {
+    .Our-distinguished-customers .card img{
+        width: 250px     !important;
+    }
+    .Our-distinguished-customers .card .container{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+/* end section Our-distinguished-customers */
+/* start section .Connect-us */
+.Connect-us iframe{
+    border-radius: 30px;
+}
+.Connect-us input ,.Connect-us select , .Connect-us  textarea{
+    background-color: #F2F1F5;
+}
+/* end section .Connect-us */
+/* start section .footer */
+
+
+.footer{
+    background-color: #3485B9;
+    padding: 10px;
+}
+.footer img{
+   padding: 5px;
+   margin: 15px auto;
+}
+.footer button{
+    background-color: #F4A825 !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-bottom-left-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+    padding: 10px !important;
+    color: #333 !important;
+}
+.footer input[type="text"]{
+    border-radius: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-bottom-right-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+.footer p svg{
+    padding: 5px;
+    margin: 0 5px;
+  /*   margin: 5px; */
+}
+.footer p{
+    margin: 0 5px;
+    padding: 5px;
+}
+
+/* end section .footer */

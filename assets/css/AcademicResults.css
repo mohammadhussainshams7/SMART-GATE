@@ -1,0 +1,57 @@
+
+body{
+    background-image:linear-gradient(0,#F8F8F8,#FFFFFF) ;
+}
+.generalSectionPreparation .card tr:last-child{
+    border: snow !important;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+
+}
+.buttons button{
+    margin: 5px 7px;
+}
+
+/* start section .footer */
+
+
+.footer{
+    background-color: #3485B9;
+    padding: 10px;
+}
+.footer img{
+   padding: 5px;
+   margin: 15px auto;
+}
+.footer button{
+    background-color: #F4A825 !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-bottom-left-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+    padding: 10px !important;
+    color: #333 !important;
+}
+.footer input[type="text"]{
+    border-radius: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-bottom-right-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+.footer p svg{
+    padding: 5px;
+    margin: 0 5px;
+  /*   margin: 5px; */
+}
+.footer p{
+    margin: 0 5px;
+    padding: 5px;
+}
+
+/* end section .footer */
